@@ -1,0 +1,348 @@
+.App {
+  display: flex;
+}
+
+.amountWonMsg {
+  text-align: center;
+  margin: auto;
+  color: white;
+  background-color: #002244;
+  font-size: 2rem;
+  border: 2px solid white;
+  padding: 2rem 2rem;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.playAgain {
+  border: none;
+  border-radius: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 1rem;
+  padding: 0.5rem 0.5rem;
+  transition: 100ms ease-in;
+}
+
+.playAgain:hover {
+  background-color: #0039a6;
+  color: white;
+}
+
+.left {
+  width: 78%;
+  height: 100vh;
+  background-color: blue;
+  background: linear-gradient(
+      to bottom,
+      rgba(36, 36, 37, 0.52),
+      rgba(0, 0, 0, 0.73)
+    ),
+    url(assets/bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.current-question__container {
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: -7rem;
+}
+
+.current-question {
+  text-align: center;
+  padding: 3rem 2rem;
+  width: 32rem;
+  background-color: #002244;
+  border: 2px solid white;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+}
+
+.answers {
+  margin-top: 2rem;
+  width: 650px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  height: 5rem;
+}
+
+.answer {
+  background-color: #002244;
+  height: 50px;
+  width: 300px;
+  border: 1px solid white;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  padding: 0 0.5rem;
+  gap: 20px;
+  color: white;
+}
+
+.answer:hover {
+  background-color: #0039a6;
+}
+
+.right {
+  width: 22%;
+  height: 96.25vh;
+  background-color: #002244;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  overflow: hidden;
+  gap: 30px;
+}
+
+.lifeLines {
+  display: flex;
+  gap: 20px;
+}
+
+.lifeLine {
+  position: relative;
+  border: none;
+  border-radius: 100%;
+  border-radius: 100%;
+  height: 60px;
+  width: 65px;
+}
+
+.lifeLine:disabled::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 30px;
+  transform: rotateZ(45deg);
+  height: 100%;
+  width: 2px;
+  background-color: red;
+}
+
+.lifeLine:disabled::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 30px;
+  transform: rotateZ(-45deg);
+  height: 100%;
+  width: 2px;
+  background-color: red;
+}
+
+.lifeLine:hover {
+  background-color: #0039a6;
+  border: 1px solid white;
+  color: white;
+}
+
+.lifeLine span {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.phoneIcon {
+  font-size: 24px;
+}
+
+.peopleIcon {
+  font-size: 24px;
+}
+
+.questions {
+  background-color: #002244;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 0.5rem;
+  border: 1px solid white;
+  border-radius: 15px;
+}
+
+.question-number {
+  font-size: 24px;
+}
+
+.question-amount {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.active {
+  background-color: #0039a6;
+}
+
+.correct {
+  background-color: rgb(17, 146, 19);
+}
+
+.false {
+  background-color: rgb(171, 37, 37);
+}
+
+.friendModalOverlay {
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.95);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.friendModalContent {
+  position: relative;
+  background-color: #002244;
+  height: 25rem;
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.friendModalContent span {
+  margin: 2.5rem;
+  display: block;
+  color: white;
+  font-size: 20px;
+}
+
+.friendModalClose {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+}
+.friendModalClose:hover {
+  background-color: #0039a6;
+  color: white;
+}
+
+.graph-container {
+  margin: auto;
+  width: 20%;
+  height: 35%;
+  border: 1px solid white;
+  border-radius: 15px;
+  background-color: #021324;
+  display: flex;
+  flex-direction: column;
+}
+
+.graph-percentages {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  margin-top: 10px;
+}
+
+.graph {
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  color: white;
+  height: 20rem;
+}
+
+.graph > div {
+  width: 30px;
+  background-color: white;
+}
+
+.graph-desc {
+  margin: 10px auto;
+  width: 80%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.confirmModalContent {
+  height: 12rem;
+  width: 30rem;
+  background-color: #002244;
+  border-radius: 15px;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.confirmModalContent > span {
+  color: white;
+  font-size: 24px;
+}
+
+.confirmModalContent > div > span {
+  color: white;
+  background-color: #002244;
+  border: 1px solid white;
+  border-radius: 15px;
+  padding: 1rem 2rem;
+  margin: 0 0.5rem;
+}
+
+.confirmModalContent > div > span:hover {
+  background-color: #0039a6;
+}
+
+.confirmModalOverlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-right: 500px;
+}
+
+.msg {
+  color: white;
+  font-size: 40px;
+  margin-bottom: 10rem;
+}
+
+.mute {
+  height: 30px;
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}

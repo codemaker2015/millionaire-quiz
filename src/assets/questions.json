@@ -1,0 +1,68 @@
+[
+  {
+    "id": "622a1c3a7cc59eab6f951043",
+    "correctAnswer": "7 June",
+    "incorrectAnswers": ["16 October","7 October","16 June"],
+    "question": "When is world food safety day observed ?"
+  },
+  {
+    "id": "622a1c397cc59eab6f950d83",
+    "correctAnswer": "Food standards save lives",
+    "incorrectAnswers": ["Better food, better health", "Best food, best health", "Good food, good health"],
+    "question": "What is the theme of world food safety day 2023"
+  },
+  {
+    "id": "622a1c3a7cc59eab6f895632",
+    "correctAnswer": "16 October",
+    "incorrectAnswers": ["7 June", "7 October", "16 June"],
+    "question": "When is world food day observed ?"
+  },
+  {
+    "id": "622a1c397cc59eab6fde3311",
+    "correctAnswer": "2019",
+    "incorrectAnswers": ["2018", "2020", "2021"],
+    "question": "When was the first food safety day observed ?"
+  },
+  {
+    "id": "622a1c3a7cc59eab6f0923ca",
+    "correctAnswer": "2018",
+    "incorrectAnswers": ["2019", "2020", "2021"],
+    "question": "In which year United Nations General Assembly declared 7th June as world food safety day ?"
+  },
+  {
+    "id": "622a1c397cc59eab6b875031",
+    "correctAnswer": "40 - 140 deg F",
+    "incorrectAnswers": ["50 - 100 deg F", "80 - 120 deg F", "100 - 212 deg F"],
+    "question": "When it comes to food handling, what is the “danger zone” temperature range?"
+  },
+  {
+    "id": "622a1c397cc59eab4abd7754",
+    "correctAnswer": "Diarrhea",
+    "incorrectAnswers": ["Kidney failure", "Skin rash", "Headache"],
+    "question": "It is most common for food-borne illnesses to manifest as:"
+  },
+  {
+    "id": "622a1c397cc59eabcc309212",
+    "correctAnswer": "Young adults",
+    "incorrectAnswers": ["Elderly", "Infants", "All of them"],
+    "question": "Food-borne illness is least likely to affect which of the following groups"
+  },
+  {
+    "id": "622a1c397cc59eabadbd3411",
+    "correctAnswer": "Binding water so it is not available for microorganisms",
+    "incorrectAnswers": ["Killing microorganisms directly", "Increasing the water content of food", "Increasing the acid content of the food"],
+    "question": "Preservatives such as sugar and salt work by:"
+  },
+  {
+    "id": "622a1c397cc59eabcd879034",
+    "correctAnswer": "Clostridium botulinum",
+    "incorrectAnswers": ["Yeasts", "Salmonella", "Molds"],
+    "question": "Foods with a higher acid content inhibit the growth of:"
+  },
+  {
+    "id": "622a1c397cc59eab92812dc12",
+    "correctAnswer": "Salmonella",
+    "incorrectAnswers": ["Clostridium botulinum", "Clostridium perfringens", "Trichanella"],
+    "question": "Which is among the most common food-borne illnesses associated with undercooked poultry and eggs"
+  }
+]
